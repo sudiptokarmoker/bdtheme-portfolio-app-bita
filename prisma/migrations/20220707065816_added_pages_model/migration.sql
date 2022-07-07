@@ -1,0 +1,6 @@
+-- CreateTable
+CREATE TABLE "Pages" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "slug" TEXT NOT NULL
+);

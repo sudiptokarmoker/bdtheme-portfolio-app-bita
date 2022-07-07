@@ -1,0 +1,31 @@
+# to install prisma
+1. npm -i -D prisma (this is means that it has dev dependency)
+and then
+2. npm i @prisma/client (this is used for client side used prisma)
+3. npx prisma init
+=====================================
+phase of this task : 
+- work with prisma and authontication using passport (done)
+- login signup process (done)
+
+- create the backend panel (tomorrow work on this part) (on 06.07.2022)
+- save the data and show the content using production site
+- send this packet to rana vi
+
+date : 05.07.2022 11: 36 AM
+
+getServerSideProps = this funciton just triger to get data from serve on any pages on next js
+but for that need 
+import {PrismaClient} from '@prisma/client'
+const prisma = new PrismaClient();
+==================================================================
+date : 07.07.2022
+task summery : 
+(after login just redirect to profile)
+1. add menu (done)
+1. show the menu item lists at the footer site of input form (done)
+2. add page (done)
+- move home page to defalt route (done)
+
+3. add page slug to menu on click
+4. display that menu at frontend and on click show that page data with some content
